@@ -2,28 +2,22 @@
 
 Initial application with a blank workspace, it has:
 
-- Ruby development environment setup for vscode
+- Ruby development environment setup for [vscode and dev-containers](https://code.visualstudio.com/docs/remote/remote-overview)
 - Dependencies and structure similar o Gem-libs
 - Recommended extensions pre-configured
 
 ## How to install dependencies
 
-- Install ruby 3.1.1
-- Install bundler gem `gem install bundler`
-- Download the source folder
-- Fetch dependencies with `bundler install` command
+- The environment automatically install all dependencies
 
 ## How to run the application
 
-- In the sources folder, execute it as a script:
-```
-sh bin/app
-```
-
-Or execute it as a Ruby application:
+Execute it as a Ruby application:
 ```
 ruby lib/app.rb
 ```
+
+Or launch it via the __Run__ tab on vscode.
 
 ## How to run the tests
 
