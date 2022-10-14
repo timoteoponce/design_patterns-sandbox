@@ -1,0 +1,23 @@
+{
+  "files.associations": {
+    "*.erb": "html"
+  },
+  "ruby.format": "rubocop",
+  "ruby.lint": {
+    "reek": true,
+    "rubocop": true
+  },
+  // Recommended when using Solargraph
+  "ruby.intellisense": false,
+  "[ruby]": {
+    "editor.formatOnSave": true,
+  },
+  "solargraph.completion": true,
+  "solargraph.hover": true,
+  "solargraph.formatting": true,
+  "solargraph.symbols": true,
+  "solargraph.definitions": true,
+  "solargraph.references": true,
+  "rubyTestExplorer.testFramework": "minitest",
+  "rubyTestExplorer.logpanel": true
+}
