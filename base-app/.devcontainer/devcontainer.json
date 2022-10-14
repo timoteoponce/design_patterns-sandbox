@@ -16,6 +16,8 @@
 	"postCreateCommand": "sudo chown vscode . && gem install bundler && bundle install",
 	"extensions": [
 		"rebornix.Ruby",
-		"castwide.solargraph"
+		"castwide.solargraph",
+		"hbenl.vscode-test-explorer",
+		"connorshea.vscode-ruby-test-adapter"
 	]
 }

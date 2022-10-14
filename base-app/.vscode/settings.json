@@ -11,12 +11,13 @@
   "ruby.intellisense": false,
   "[ruby]": {
     "editor.formatOnSave": true,
-    "editor.formatOnSaveTimeout": 2000
   },
   "solargraph.completion": true,
   "solargraph.hover": true,
   "solargraph.formatting": true,
   "solargraph.symbols": true,
   "solargraph.definitions": true,
-  "solargraph.references": true
+  "solargraph.references": true,
+  "rubyTestExplorer.testFramework": "minitest",
+  "rubyTestExplorer.logpanel": true
 }
