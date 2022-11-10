@@ -14,6 +14,7 @@
 	],
 	// Uncomment the next line to run commands after the container is created.
 	"postCreateCommand": "sudo chown vscode . && gem install bundler && bundle install",
+  "waitFor": "postCreateCommand",
 	"extensions": [
 		"rebornix.Ruby",
 		"castwide.solargraph",
